@@ -278,7 +278,7 @@ print(pulled_back_a.integral_data[0])
 # A_{j, i} = \sum_{q=0}^M w_q \phi_i(F_K(\bar x_q))\phi_j(F_K(\bar x_q))\vert \mathrm{det} J_K(\bar x_q)\vert
 # $$
 #
-# As you might have spotted in the previous exercise, UFL can estimate want degree you should use for your quadrature rule.
+# As you might have spotted in the previous exercise, UFL can estimate what degree you should use for your quadrature rule.
 # We can get this number explicitly with the following code.
 
 pulled_back_a = ufl.algorithms.compute_form_data(
