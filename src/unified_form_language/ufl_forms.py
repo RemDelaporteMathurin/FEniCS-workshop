@@ -340,7 +340,7 @@ print(list(itg.metadata() for itg in pulled_back_a.integral_data[0].integrals))
 
 dx = ufl.Measure("dx", domain=domain, metadata={"quadrature_degree": 4})
 
-# ```{warning} Variational crimes
+# ```{warning}
 # Reducing the accuracy of the integration by lowering the quadrature rule is considered to be a
 # **variational crime** {cite}`sulli2012lecture` (Chapter 3.4) and should be done with caution.
 # ```
