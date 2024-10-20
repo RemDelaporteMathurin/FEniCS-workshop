@@ -336,7 +336,7 @@ pulled_back_a = ufl.algorithms.compute_form_data(
 print(list(itg.metadata() for itg in pulled_back_a.integral_data[0].integrals))
 # -
 
-# We can fix the number of quadraure points by setting the `quadrature_degree` in the `Measure`
+# We can fix the number of quadrature points by setting the `quadrature_degree` in the `Measure`
 
 dx = ufl.Measure("dx", domain=domain, metadata={"quadrature_degree": 4})
 
